@@ -1,6 +1,7 @@
 import styled from 'styled-components'
-import { color, ColorProps } from 'styled-system'
+import { color, ColorProps, fontFamily, FontFamilyProps } from 'styled-system'
 
-export const HeaderWrapper = styled.div<ColorProps>`
+export const HeaderWrapper = styled.div<ColorProps & FontFamilyProps>`
   ${color}
+  ${fontFamily}
 `
