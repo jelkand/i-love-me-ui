@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import { Header } from '../Header'
+import { Header } from '../HeaderBlock'
 
 function App() {
   return (
     <>
-      <Header></Header>
+      <Header>I &lt;3 Me</Header>
     </>
   )
 }
